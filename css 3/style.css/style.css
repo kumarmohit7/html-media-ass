@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-link */
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1\ \(1\).png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 60px 0 60px;
+    margin-top: 10px;
+}
+.list{
+    display: flex;      
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 12px;
+    color: #ffc233;
+}
+.list-item{
+    cursor: pointer;
+}
+.smallbutton{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+}
+.smallbutton:hover{
+    background-color: #fff;
+    color: #ff505f;
+    cursor: pointer;
+    /* border-radius: 10px; */
+}
+/* hero-section */
+/* hero-section */
+/* hero-section */
+.hero{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+.hero-heading{
+    color: #ffc233;
+    font-weight: 400px;
+    font-size: 114px;
+    line-height: 114px;
+    font-style: normal;
+}
+.largebutton{
+    background-color:#ff505f;
+    color: #ffffff;
+    padding: 24px 56px;
+    border: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 64px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.scroll{
+    position: absolute;
+    right: 40px;
+}
+
+
+/* nav .logo{ */
+    /* background-color: red; */
+
+
+/* nav ul{
+    list-style: none;
+    display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* gap: 3px; */
+    /* margin: 10px 10px; */
+    /* padding: 10px 10px; */
+
